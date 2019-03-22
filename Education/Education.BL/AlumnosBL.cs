@@ -21,5 +21,11 @@ namespace Education.BL
             listaAlumnos = _contexto.Alumnos.ToList();
             return listaAlumnos;
         }
+
+        public void GuardarAlumno(Alumnos alumno)
+        {
+            _contexto.Alumnos.Add(alumno);
+            _contexto.SaveChanges();
+        }
     }
 }
