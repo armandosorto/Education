@@ -1,4 +1,4 @@
-﻿using Education.Web.Models;
+﻿using Education.BL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +12,8 @@ namespace Education.Web.Controllers
         // GET: Alumnos
         public ActionResult Index()
         {
-            var alumnos = new AlumnosModel();
-
-            var ListaAlumnos = new List<AlumnosModel>();
-            ListaAlumnos.Add();
+            var alumnosBL = new AlumnosBL();
+            var ListaAlumnos = alumnosBL.ObtenerAlumnos();
             return View(ListaAlumnos);
         }
     }

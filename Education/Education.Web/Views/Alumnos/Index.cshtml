@@ -1,11 +1,32 @@
-﻿@model List<Education.Web.Models.AlumnosModel>
+﻿@model List<Education.BL.Alumnos>
 @{
     ViewBag.Title = "Index";
 }
 
 <h2>Alumnos</h2>
+
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Seccion
+            </th>
+        </tr>
+    </thead>
 @foreach (var alumnos in Model)
 {
-    <p>@alumnos.Id @alumnos.Nombre</p>
+    <tr>
+        <td>@alumnos.Id</td>
+        <td>@alumnos.Nombre</td>
+    </tr>
 }
-    
+
+</table>
+
