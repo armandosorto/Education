@@ -9,15 +9,17 @@ namespace Education.BL
     public class AlumnosBL
     {
         Contexto _contexto;
+        public List<Alumnos> listaAlumnos { get; set; }
         public AlumnosBL()
         {
             _contexto = new Contexto();
+            listaAlumnos = new List<Alumnos>();
         }
 
         public List<Alumnos> ObtenerAlumnos()
         {
-
-            return _contexto.Alumnos.ToList();
+            listaAlumnos = _contexto.Alumnos.ToList();
+            return listaAlumnos;
         }
     }
 }
