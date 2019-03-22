@@ -1,0 +1,11 @@
+﻿@model List<Education.Web.Models.AlumnosModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Alumnos</h2>
+@foreach (var alumnos in Model)
+{
+    <p>@alumnos.Id @alumnos.Nombre</p>
+}
+    
