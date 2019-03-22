@@ -16,9 +16,8 @@ namespace Education.BL
 
         public List<Alumnos> ObtenerAlumnos()
         {
-            _contexto.Alumnos.ToList();
 
-           // return (listaAlumnos);
+            return _contexto.Alumnos.ToList();
         }
     }
 }
