@@ -22,7 +22,7 @@ namespace Education.BL
         }
         public DbSet<Alumnos> Alumnos { get; set; }
         public DbSet<Docente> Docente { get; set; }
-        public object Grado { get; internal set; }
-        public object Modalidad { get; internal set; }
+        public DbSet<Grado> Grado { get; set; }
+        public DbSet<Modalidad> Modalidad { get; set; }
     }
 }

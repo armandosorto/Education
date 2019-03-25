@@ -22,7 +22,7 @@ namespace Education.BL
         }
         public void GuardarModalidad(Modalidad modalidad)
         {
-            _contexto.Modalidad.Add(Modalidad);
+            _contexto.Modalidad.Add(modalidad);
             _contexto.SaveChanges();
         }
     }

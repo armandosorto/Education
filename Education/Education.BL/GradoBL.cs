@@ -22,7 +22,7 @@ namespace Education.BL
         } 
         public void GuardarGrado(Grado grado)
         {
-            _contexto.Grado.Add(Grado);
+            _contexto.Grado.Add(grado);
             _contexto.SaveChanges();
         }
 
