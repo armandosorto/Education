@@ -144,6 +144,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AlumnosController.cs" />
     <Compile Include="Controllers\DocenteController.cs" />
+    <Compile Include="Controllers\GradoController.cs" />
+    <Compile Include="Controllers\ModalidadController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -167,6 +169,8 @@
     <Content Include="Views\Docente\Index.cshtml" />
     <Content Include="Views\Alumnos\Index.cshtml" />
     <Content Include="Views\Docente\Crear.cshtml" />
+    <Content Include="Views\Grado\Index.cshtml" />
+    <Content Include="Views\Modalidad\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

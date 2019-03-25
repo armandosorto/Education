@@ -167,6 +167,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Docente\Index.cshtml" />
+    <Content Include="Views\Grado\Index.cshtml" />
+    <Content Include="Views\Modalidad\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -177,8 +179,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Grado\" />
-    <Folder Include="Views\Modalidad\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Education.BL\Education.BL.csproj">

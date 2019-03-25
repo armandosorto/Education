@@ -1,0 +1,35 @@
+﻿@model List<Education.BL.Grado>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Grado</h2>
+
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+
+            <th>
+                Id
+            </th>
+            <th>
+                Nombre
+            </th>
+
+
+        </tr>
+    </thead>
+    @foreach (var Grado in Model)
+    {
+        <tr>
+            <td>@Grado.Id</td>
+            <td>@Grado.Grados</td>
+            
+        </tr>
+
+    }
+
+</table>
+
+
