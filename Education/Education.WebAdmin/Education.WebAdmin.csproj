@@ -143,6 +143,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AlumnosController.cs" />
+    <Compile Include="Controllers\DocenteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -162,8 +163,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Alumnos\Index.cshtml" />
     <Content Include="Views\Alumnos\Crear.cshtml" />
+    <Content Include="Views\Docente\Index.cshtml" />
+    <Content Include="Views\Alumnos\Index.cshtml" />
+    <Content Include="Views\Docente\Crear.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
