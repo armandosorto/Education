@@ -171,6 +171,8 @@
     <Content Include="Views\Docente\Crear.cshtml" />
     <Content Include="Views\Grado\Index.cshtml" />
     <Content Include="Views\Modalidad\Index.cshtml" />
+    <Content Include="Views\Grado\Crear.cshtml" />
+    <Content Include="Views\Modalidad\Crear.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
